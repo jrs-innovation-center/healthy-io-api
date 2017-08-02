@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "tape test/**/*_test.js ",
+    "start": "node app.js",
+    "prettify": "prettier --no-semi --write app.js dal.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,15 @@
     "node-http-error": "^1.1.0",
     "pouchdb": "^6.3.4",
     "pouchdb-find": "^6.3.4",
-    "ramda": "^0.24.1"
+    "ramda": "^0.24.1",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "nock": "^9.0.14",
+    "prettier": "^1.5.3",
+    "ramda": "^0.24.1",
+    "tape": "^4.8.0"
   }
 }

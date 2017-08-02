@@ -28,7 +28,7 @@ POST /profiles
   lastName: "Gardens",
   dob: "1980-01-17",
   gender: "M",
-  photo: "data:image/png;base64,iVBORw0KGgoAAAA..."
+  photo: "data:image/png;base64,iVBORw0KGgoAAAA...",
   contacts: [
     {
       firstName: "Judy",
@@ -61,7 +61,7 @@ GET /profiles/profile_marvin_gardens_34wd323dk449rkd932edi2o2lsldlol
   lastName: "Gardens",
   dob: "1980-01-17",
   gender: "M",
-  photo: "data:image/png;base64,iVBORw0KGgoAAAA..."
+  photo: "data:image/png;base64,iVBORw0KGgoAAAA...",
   contacts: [
     {
       firstName: "Judy",
@@ -96,7 +96,7 @@ PUT /profiles/profile_marvin_gardens_34wd323dk449rkd932edi2o2lsldlol
   lastName: "Gardens",
   dob: "1980-01-17",
   gender: "M",
-  photo: "data:image/png;base64,iVBORw0KGgoAAAA..."
+  photo: "data:image/png;base64,iVBORw0KGgoAAAA...",
   contacts: [
     {
       firstName: "Judy",
@@ -153,7 +153,7 @@ DELETE /profiles/profile_marvin_gardens_34wd323dk449rkd932edi2o2lsldlol
 
 **Simple GET /profiles example**
 
-Here is a simple `GET /profiles` example.  By not providing an optional `limit` query parameter, the api will return 5 profiles ordered by last name, first name, email.
+Here is a simple `GET /profiles` example.  By not providing an optional `limit` query parameter, the api will return 5 profiles ordered by the id (firstName, lastName.
 
 ```
 GET /profiles
@@ -166,7 +166,7 @@ GET /profiles
   lastName: "Gardens",
   dob: "1980-01-17",
   gender: "M",
-  photo: "data:image/png;base64,iVBORw0KGgoAAAA..."
+  photo: "data:image/png;base64,iVBORw0KGgoAAAA...",
   contacts: [
     {
       firstName: "Judy",
@@ -191,7 +191,7 @@ GET /profiles
   lastName: "Gardens",
   dob: "1992-01-17",
   gender: "M",
-  photo: "data:image/png;base64,iVBORw0KGgoAAAA..."
+  photo: "data:image/png;base64,iVBORw0KGgoAAAA...",
   contacts: [
     {
       firstName: "Jody",
@@ -231,7 +231,7 @@ GET /profiles?filter=firstName:Zep
     lastName: "Gardens",
     dob: "1992-01-17",
     gender: "M",
-    photo: "data:image/png;base64,iVBORw0KGgoAAAA..."
+    photo: "data:image/png;base64,iVBORw0KGgoAAAA...",
     contacts: [
       {
         firstName: "Jody",
@@ -270,7 +270,7 @@ GET /profiles?limit=3
     lastName: "Gardens",
     dob: "1992-01-17",
     gender: "M",
-    photo: "data:image/png;base64,iVBORw0KGgoAAAA..."
+    photo: "data:image/png;base64,iVBORw0KGgoAAAA...",
     contacts: [
       {
         firstName: "Jody",
@@ -294,7 +294,7 @@ GET /profiles?limit=3
     lastName: "Gardens",
     dob: "1992-01-17",
     gender: "M",
-    photo: "data:image/png;base64,iVBORw0KGgoAAAA..."
+    photo: "data:image/png;base64,iVBORw0KGgoAAAA...",
     contacts: [
       {
         firstName: "Jody",
@@ -318,7 +318,7 @@ GET /profiles?limit=3
     lastName: "Gardens",
     dob: "1992-01-17",
     gender: "M",
-    photo: "data:image/png;base64,iVBORw0KGgoAAAA..."
+    photo: "data:image/png;base64,iVBORw0KGgoAAAA...",
     contacts: [
       {
         firstName: "Jody",
@@ -352,7 +352,7 @@ GET /profiles?limit=3&lastItem=profile_cal_gardens_56wd402341ls
     lastName: "Gardens",
     dob: "1992-01-17",
     gender: "M",
-    photo: "data:image/png;base64,iVBORw0KGgoAAAA..."
+    photo: "data:image/png;base64,iVBORw0KGgoAAAA...",
     contacts: [
       {
         firstName: "Jody",
@@ -376,7 +376,7 @@ GET /profiles?limit=3&lastItem=profile_cal_gardens_56wd402341ls
     lastName: "Gardens",
     dob: "1992-01-17",
     gender: "M",
-    photo: "data:image/png;base64,iVBORw0KGgoAAAA..."
+    photo: "data:image/png;base64,iVBORw0KGgoAAAA...",
     contacts: [
       {
         firstName: "Jody",
@@ -400,7 +400,7 @@ GET /profiles?limit=3&lastItem=profile_cal_gardens_56wd402341ls
     lastName: "Gardens",
     dob: "1992-01-17",
     gender: "M",
-    photo: "data:image/png;base64,iVBORw0KGgoAAAA..."
+    photo: "data:image/png;base64,iVBORw0KGgoAAAA...",
     contacts: [
       {
         firstName: "Jody",
